@@ -10,8 +10,10 @@ Article about the algorithm of this project: [Push Swap in less than 42000 opera
 ## ⚙️ About the implementation
 In `push_swap_docs.md`: Stacks data structure; Error management; Inputs format; Checker: Why do not reuse `get_next_line`.</br>
 
-## ✨ Illustration
+## 🧬 Program Flowchart
+https://github.com/ulyssegerkens/push_swap/blob/main/illustrations/push_swap_flowchart.svg
 
+## ✨ Illustration
 https://github.com/ulyssegerkens/push_swap/assets/99326326/77c80f0d-5759-4849-b321-d4f5506d3351
 
 https://github.com/ulyssegerkens/push_swap/assets/99326326/71651fc8-4528-46b0-ae41-477ff0b505a7
