@@ -5,7 +5,7 @@
 
 ## 📊 General information
 Version: 6. Bonus included.</br>
-Article about the algorithm of this project: [Push Swap in less than 42000 operations]().</br>
+Article about the algorithm of this project: [Push Swap in less than 42000 operations](https://medium.com/@ulysse.gerkens/push-swap-in-less-than-4200-operations-c292f034f6c0).</br>
 
 ## ⚙️ About the implementation
 In `push_swap_docs.md`: Stacks data structure; Error management; Inputs format; Checker: Why do not reuse `get_next_line`.</br>
