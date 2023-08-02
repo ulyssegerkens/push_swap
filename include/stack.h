@@ -13,11 +13,11 @@
 #ifndef STACK_H
 # define STACK_H
 
-# include "ft_printf.h"
 # include "libft.h"
-# include <limits.h>
-# include <stdbool.h>
+# include "ft_printf.h"
 # include <stdlib.h>
+# include <stdbool.h>
+# include <limits.h>
 
 typedef struct s_stack
 {
