@@ -5,7 +5,7 @@
 
 ## 📊 General information
 Version: 6. Bonus included.</br>
-Article about the algorithm of this project: [Push Swap in less than 42000 operations](https://medium.com/@ulysse.gerkens/push-swap-in-less-than-4200-operations-c292f034f6c0).</br>
+Article about the algorithm of this project: [Push Swap in less than 4200 operations](https://medium.com/@ulysse.gerkens/push-swap-in-less-than-4200-operations-c292f034f6c0).</br>
 
 ## 🚀 Benchmark
 Worst = 3871 instructions</br>
