@@ -13,8 +13,9 @@ Average = 3784 instructions</br>
 Best = 3680 instructions</br>
 Standard deviation = 27.0 instructions</br>
 
-## ⚙️ About the implementation
-In `push_swap_docs.md`: Stacks data structure; Error management; Inputs format; Checker: Why do not reuse `get_next_line`.</br>
+## ⚙️ Implementation Details
+Cf [/push_swap_docs.md](https://github.com/ulyssegerkens/push_swap/blob/main/push_swap_docs.md): Stacks data structure; Error management; Inputs format; Checker: Why do not reuse `get_next_line`.</br>
+
 
 ## 🛠️ Useful tools
 - [/push_swap_tester](https://github.com/SimonCROS/push_swap_tester)
