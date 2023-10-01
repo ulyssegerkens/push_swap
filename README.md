@@ -24,6 +24,9 @@ In `push_swap_docs.md`: Stacks data structure; Error management; Inputs format; 
 ## 🧬 Program Flowchart
 [/illustrations/push_swap_flowchart.svg](https://github.com/ulyssegerkens/push_swap/blob/main/illustrations/push_swap_flowchart.svg)
 
+## 📋 Testing
+Tested by 42 students (125%) and mention as an outstanding project 🎉. 
+
 ## ✨ Illustration
 https://github.com/ulyssegerkens/push_swap/assets/99326326/77c80f0d-5759-4849-b321-d4f5506d3351
 
