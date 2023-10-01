@@ -28,7 +28,7 @@ Cf. [/push_swap_docs.md](https://github.com/ulyssegerkens/push_swap/blob/main/pu
 ## 📋 Testing
 Tested by 42 students (125%) and mention as an outstanding project 🎉. 
 
-## ✨ Illustration
+## ✨ Illustrations
 https://github.com/ulyssegerkens/push_swap/assets/99326326/77c80f0d-5759-4849-b321-d4f5506d3351
 
 https://github.com/ulyssegerkens/push_swap/assets/99326326/71651fc8-4528-46b0-ae41-477ff0b505a7
