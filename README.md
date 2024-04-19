@@ -1,6 +1,6 @@
 
 <h1 align="center">
-	Push Swap
+	An Effective Push Swap
 </h1>
 <p align="center">
 	This project helped you? Give it a 🌟!
