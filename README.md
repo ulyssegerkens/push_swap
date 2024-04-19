@@ -2,6 +2,9 @@
 <h1 align="center">
 	Push Swap
 </h1>
+<p align="center">
+	This project helped you? Give it a 🌟!
+</p>
 
 ## 📊 General information
 Version: 6. Bonus included.</br>
