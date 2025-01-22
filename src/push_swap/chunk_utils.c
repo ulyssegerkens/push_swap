@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:58:02 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/28 23:15:09 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:06:14 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	chunk_value(t_ps *data, t_chunk *chunk, int n)
 {
-	enum e_loc	loc;
-	t_stack		*stk;
-	int			i;
+	t_loc	loc;
+	t_stack	*stk;
+	int		i;
 
 	loc = chunk->loc;
 	stk = loc_to_stack(data, loc);
@@ -59,7 +59,7 @@ int	chunk_max_value(t_ps *data, t_chunk *chunk)
 	return (max_value);
 }
 
-t_stack	*loc_to_stack(t_ps *data, enum e_loc loc)
+t_stack	*loc_to_stack(t_ps *data, t_loc loc)
 {
 	if (loc == TOP_A || loc == BOTTOM_A)
 		return (&data->a);

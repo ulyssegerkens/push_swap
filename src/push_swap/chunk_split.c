@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:57:19 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/30 19:36:39 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:06:14 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void	innit_size(t_chunk *min, t_chunk *mid, t_chunk *max)
 	max->size = 0;
 }
 
-void	set_split_loc(enum e_loc loc, t_chunk *min, t_chunk *mid, t_chunk *max)
+void	set_split_loc(t_loc loc, t_chunk *min, t_chunk *mid, t_chunk *max)
 {
 	if (loc == TOP_A)
 	{
@@ -75,7 +75,7 @@ void	set_split_loc(enum e_loc loc, t_chunk *min, t_chunk *mid, t_chunk *max)
 	}
 }
 
-void	set_third_pivots(enum e_loc loc, int crt_size, int *pivot_1, int *pivot_2)
+void	set_third_pivots(t_loc loc, int crt_size, int *pivot_1, int *pivot_2)
 {
 	*pivot_2 = crt_size / 3;
 	if (loc == TOP_A || loc == BOTTOM_A)

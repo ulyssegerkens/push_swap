@@ -6,13 +6,13 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 21:09:02 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/28 22:55:55 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:04:33 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "stack.h"
 
-void	save_op(t_ps *data, enum e_op op)
+void	save_op(t_ps *data, t_op op)
 {
 	t_list	*new;
 
@@ -34,7 +34,7 @@ void	print_operations(t_list *head)
 	}
 }
 
-const char	*op_to_string(enum e_op op)
+const char	*op_to_string(t_op op)
 {
 	static const char	*strings[12];
 
@@ -53,7 +53,7 @@ const char	*op_to_string(enum e_op op)
 	return (strings[op]);
 }
 
-enum e_op	op_from(t_list *node)
+t_op	op_from(t_list *node)
 {
-	return ((enum e_op)(uintptr_t)node->content);
+	return ((t_op)(uintptr_t)node->content);
 }

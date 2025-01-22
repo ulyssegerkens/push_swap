@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:56:49 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/28 22:53:51 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:04:33 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ bool	test_sort(t_ps *data)
 	reader = data->op_list;
 	while (reader)
 	{
-		call_op(data, (enum e_op)(uintptr_t)reader->content);
+		call_op(data, (t_op)(uintptr_t)reader->content);
 		reader = reader->next;
 	}
 	return (is_full(&data->a) && is_sorted(data));

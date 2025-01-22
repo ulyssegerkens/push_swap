@@ -6,13 +6,13 @@
 #    By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/27 14:02:06 by ugerkens          #+#    #+#              #
-#    Updated: 2023/07/28 23:18:55 by ugerkens         ###   ########.fr        #
+#    Updated: 2025/01/22 17:15:50 by ugerkens         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Variables
 CC					=	gcc
-CFLAGS				=	-Wall -Wextra -Werror -Iinclude -Isrc -O3
+CFLAGS				=	-Wall -Wextra -Werror -Iinclude -Isrc -Ofast
 RM					=	rm -rf
 CHECKER				=	checker
 PUSH_SWAP			=	push_swap

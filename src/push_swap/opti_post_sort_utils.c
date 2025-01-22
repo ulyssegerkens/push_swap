@@ -6,13 +6,13 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 21:15:00 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/27 21:15:11 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:04:33 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-enum e_op	neutral_op(enum e_op op)
+t_op	neutral_op(t_op op)
 {
 	if (op == pa)
 		return (pb);
@@ -35,7 +35,7 @@ enum e_op	neutral_op(enum e_op op)
 	return (null_op);
 }
 
-bool	op_on_same_stack(enum e_op ref, enum e_op to_check)
+bool	op_on_same_stack(t_op ref, t_op to_check)
 {
 	if (ref == pa || ref == pb || ref == rr || ref == rrr)
 		return (true);
@@ -48,7 +48,7 @@ bool	op_on_same_stack(enum e_op ref, enum e_op to_check)
 	return (false);
 }
 
-enum e_op	child_op(enum e_op first, enum e_op second)
+t_op	child_op(t_op first, t_op second)
 {
 	if ((first == ra && second == rb) || (first == rb && second == ra))
 		return (rr);

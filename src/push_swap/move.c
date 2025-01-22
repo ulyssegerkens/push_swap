@@ -6,13 +6,13 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:58:08 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/27 20:58:10 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:06:14 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	move_from_to(t_ps *data, enum e_loc from, enum e_loc to)
+int	move_from_to(t_ps *data, t_loc from, t_loc to)
 {
 	if (from == TOP_A)
 		move_from_top_a(data, to);
@@ -25,7 +25,7 @@ int	move_from_to(t_ps *data, enum e_loc from, enum e_loc to)
 	return (1);
 }
 
-void	move_from_top_a(t_ps *data, enum e_loc to)
+void	move_from_top_a(t_ps *data, t_loc to)
 {
 	if (to == TOP_B)
 		push_b(data);
@@ -38,7 +38,7 @@ void	move_from_top_a(t_ps *data, enum e_loc to)
 	}
 }
 
-void	move_from_top_b(t_ps *data, enum e_loc to)
+void	move_from_top_b(t_ps *data, t_loc to)
 {
 	if (to == TOP_A)
 		push_a(data);
@@ -51,7 +51,7 @@ void	move_from_top_b(t_ps *data, enum e_loc to)
 	}
 }
 
-void	move_from_bottom_a(t_ps *data, enum e_loc to)
+void	move_from_bottom_a(t_ps *data, t_loc to)
 {
 	if (to == TOP_A)
 		r_rotate_a(data);
@@ -68,7 +68,7 @@ void	move_from_bottom_a(t_ps *data, enum e_loc to)
 	}
 }
 
-void	move_from_bottom_b(t_ps *data, enum e_loc to)
+void	move_from_bottom_b(t_ps *data, t_loc to)
 {
 	if (to == TOP_B)
 		r_rotate_b(data);

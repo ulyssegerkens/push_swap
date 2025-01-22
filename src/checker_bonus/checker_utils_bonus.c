@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_sort_bonus.c                                 :+:      :+:    :+:   */
+/*   checker_utils_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:56:40 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/28 22:58:13 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:04:33 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	get_next_line_ps(int fd, char *line)
 	return (EXIT_SUCCESS);
 }
 
-enum e_op	string_to_op(const char *str)
+t_op	string_to_op(const char *str)
 {
 	if (!ft_strcmp(str, "pa"))
 		return (pa);
@@ -75,7 +75,7 @@ enum e_op	string_to_op(const char *str)
 		return (null_op);
 }
 
-void	call_op(t_ps *data, enum e_op op)
+void	call_op(t_ps *data, t_op op)
 {
 	if (op == pa)
 		push_a(data);

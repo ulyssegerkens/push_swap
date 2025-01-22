@@ -6,7 +6,7 @@
 /*   By: ugerkens <ugerkens@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 20:58:19 by ugerkens          #+#    #+#             */
-/*   Updated: 2023/07/30 18:27:31 by ugerkens         ###   ########.fr       */
+/*   Updated: 2025/01/22 17:04:33 by ugerkens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@ void	post_sort_optimization(t_ps *data)
 
 void	eliminate_neutral_op(t_list *op_list)
 {
-	t_list		*ref;
-	t_list		*cmp;
-	enum e_op	op_neutral;
+	t_list	*ref;
+	t_list	*cmp;
+	t_op	op_neutral;
 
 	ref = op_list->next;
 	while (ref && ref->next)
@@ -50,8 +50,8 @@ void	eliminate_neutral_op(t_list *op_list)
 
 void	merge_op(t_list *op_list)
 {
-	t_list		*reader;
-	enum e_op	child;
+	t_list	*reader;
+	t_op	child;
 
 	reader = op_list;
 	while (reader && reader->next)
