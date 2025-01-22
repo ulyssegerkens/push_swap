@@ -24,7 +24,8 @@ Cf. [/push_swap_docs.md](https://github.com/ulyssegerkens/push_swap/blob/main/pu
 ## 🛠️ Useful tools
 - [/push_swap_tester](https://github.com/SimonCROS/push_swap_tester)
 - [/ push_swap_visualiser](https://github.com/Niimphu/push_swap_visualiser)
-- [Random Number Generator](https://www.calculatorsoup.com/calculators/statistics/random-number-generator.php)
+- [Project index, visualizer, stats](https://push.peuf.ch/)
+
 
 ## 🧬 Program Flowchart
 [/illustrations/push_swap_flowchart.svg](https://github.com/ulyssegerkens/push_swap/blob/main/illustrations/push_swap_flowchart.svg)
