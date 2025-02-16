@@ -37,7 +37,7 @@ STACK_INC			=	stack.h
 STACK_SRC			=	data_mngt.c stack_init.c stack_utils.c op_push.c \
 						op_reverse_rotate.c op_rotate.c op_swap.c op_utils.c
 PUSH_SWAP_INC		=	$(STACK_INC) push_swap.h
-PUSH_SWAP_SRC		=	$(STACK_SRC) push_swap.c sort.c move.c chunk_sort.c  \
+PUSH_SWAP_SRC		=	$(STACK_SRC) main.c sort.c move.c chunk_sort.c  \
 						chunk_split.c chunk_utils.c opti_easy_sort.c \
 						opti_sort_asap.c opti_sort_three.c opti_to_the_top.c \
 						opti_post_sort.c opti_post_sort_utils.c
